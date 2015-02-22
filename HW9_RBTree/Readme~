@@ -1,0 +1,7 @@
+Readme
+
+The Make command compiles the rb_test.cpp, bst.h and rbbst.h files
+To run rb_test.cpp I simply used ./rb_test
+
+The command I used to compile my teams.cpp file is g++ -std=c++11 -o  teams teams.cpp
+To run teams.cpp I used ./teams and then included the textfile name.

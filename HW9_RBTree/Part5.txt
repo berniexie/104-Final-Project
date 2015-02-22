@@ -1,0 +1,22 @@
+Part 5
+
+
+
+Part a
+1. In order for one hash bucket to be empty, another has bucket must have two elements in its array.This is due to the pigeonhole principle,
+if you have m number of keys but only m-1 buckets (since one bucket is empty), one bucket must have at least 2 elements.
+
+2. 
+ The probability is ((m-1)/m)^m
+ 
+ 3. 
+OVERALL Number expected empty locations is m(((m-1)/m)^m)
+
+
+Part b:
+1. k/m probability
+
+2. 
+
+3. 
+Expected number of elements in a bucket: n/m or 1
